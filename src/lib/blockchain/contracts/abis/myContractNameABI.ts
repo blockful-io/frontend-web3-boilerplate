@@ -1,6 +1,6 @@
 /* 
-    This file should hold the ABI of one
-    blockchain contract used by the application.
+    This file should hold the ABIs of the
+    smartContracts used inside the application.
 */
 
 export const MyContractNameABI = [];

@@ -1,5 +1,5 @@
 import { ThemeContext } from "@/contexts/theme-config";
-import { Theme } from "@/lib/client/constants";
+import { Theme } from "@/lib/client/theme";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { useContext, useEffect } from "react";
 

@@ -1,14 +1,14 @@
-Hi! This is [Blockful's](https://blockful.io/) web3 frontEnd boilerplate
+## Hi! This is [Blockful's](https://blockful.io/) web3 frontEnd boilerplate
 
-This boilerplate is a WIP, and, will still be till the end of the days, since we understand technology evolves through time and we aim to never stop innovating and growing towards DevEx maturity.
+This boilerplate is a WIP and, will still be till the end of the days, since we understand technology evolves through time and we aim to never stop innovating and growing towards DevEx maturity 🌐👨🏼‍💻👩🏻‍💻👨🏽‍💻👩🏾‍💻
 
 To install the project in your personal computer, open your terminal command line and type:
 
-1. `git clone https://github.com/blockful-io/frontend-web3-boilerplate.git`
+`git clone https://github.com/blockful-io/frontend-web3-boilerplate.git`
 
 ## TLDR;
 
-In this Readme you will learn how to install our boilerplate in your local development environment, how to reuse it according to your project needs and how to best extract value of these tools we researched on, puzzled-in and found as the best tools of the current worldwide tech context for building and scaling ideas in the web3 eco-system through users interactivity. For more information on the backEnd and smartContract pieces of the cake that makes a great product please refer to our other repos that are also available in our organization GitHub account 🌐🛜
+In this Readme you will learn how to install our boilerplate in your local development environment, how to reuse it according to your project needs and how to best extract value of these tools we researched on, puzzled-in and found as the best tools of the current worldwide tech context for building and scaling ideas in the web3 eco-system through users interactivity. For more information on the backEnd and smartContract pieces of the cake that makes a great product please refer to our other repos that are also available in our organization GitHub account 🛜💻
 
 ## Running the dApp
 
@@ -79,17 +79,20 @@ Need a space to put React or Ui related code... You found it!
 `/pages/`:
 As mentioned in the introduction of this repo, this is the Next.js routing architecture. Please study [Next.js](https://nextjs.org/docs) and keep-on going, this is good not only for a good usage of this template but also for your career in web development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Design System
+## Environment musts
 
-Fonts:
-Albert Sans
+First must is to create a .env file just like the .env.example
 
-Colors:
-Primary Colored - #E56399
-Secondary Colored - #7FD1B9
-Light Base - #FFFFFF
-Dark Base - #121525
+Second must is to use node v18 (how to [manage](https://github.com/nvm-sh/nvm) node version locally)
+
+## To create a component, do this
+
+1. Create the component inside the Atomic design folder that best fits;
+2. To style a component use TailwindCSS classes or the application's global theme;
+3. Include the component in the folder's `index.ts`
+
+## Next steps
+
+Given the introduction to this frontEnd developer toolkit we, then, deliver this to your hands now. Feel free to contribute to this template through a PR, we will surely evaluate the inclusion of new increments to the ever growing code-base 🛠️

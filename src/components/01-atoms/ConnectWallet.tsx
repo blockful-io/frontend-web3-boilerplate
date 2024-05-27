@@ -11,6 +11,7 @@ export const ConnectWallet = () => {
     setIsCtaHovered(hovering);
   };
 
+  // Feel free to change the styles configured below
   const ctaConfig = {
     ...theme,
     background: isCtaHovered

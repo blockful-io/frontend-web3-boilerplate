@@ -32,5 +32,8 @@
     "fs": false,
     "tls": false,
     "net": false
+  },
+  "engines": {
+    "node": "18"
   }
 }

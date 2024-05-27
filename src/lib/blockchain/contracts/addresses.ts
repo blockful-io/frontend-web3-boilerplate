@@ -1,6 +1,6 @@
 /*
-    This file should hold the addresses of the blockchain
-    contracts that are used by the application.
+    This file should hold the addresses of the 
+    smartContracts that are used in the application.
 */
 
 import { SupportedNetworks } from "@/config/wallet";
@@ -16,7 +16,7 @@ export const ContractAddressByChain: Record<
   [SupportedNetworks.Mainnet]: {
     [Contracts.MyContractName]: "0x000",
   },
-  [SupportedNetworks.Goerli]: {
+  [SupportedNetworks.Sepolia]: {
     [Contracts.MyContractName]: "0x000",
   },
 };

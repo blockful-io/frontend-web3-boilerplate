@@ -11,6 +11,7 @@ export enum SupportedNetworks {
   "Sepolia" = 11155111,
 }
 
+// Wether or not the network configured to be used is a testnet
 export const IS_TESTNET = !!process.env.NEXT_PUBLIC_USE_TESTNET;
 
 export const ENV_DEFAULT_CHAIN_ID = IS_TESTNET
@@ -31,6 +32,7 @@ if (!projectID) {
   throw new Error("Please provide an Wallet Connect project ID");
 }
 
+// You can change below networks array as wanted
 const { chains, publicClient } = configureChains(
   [IS_TESTNET ? sepolia : mainnet],
   [alchemyProvider({ apiKey: apiKey }), publicProvider()]
