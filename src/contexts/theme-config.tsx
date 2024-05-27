@@ -3,7 +3,7 @@ import {
   Theme,
   THEME_COOKIE_KEY,
   THEMES_CONFIGURATION,
-} from "../lib/client/constants";
+} from "../lib/client/theme";
 import React, { useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
 

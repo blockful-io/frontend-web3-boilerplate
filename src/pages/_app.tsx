@@ -1,5 +1,6 @@
-import "@rainbow-me/rainbowkit/styles.css";
 import "tailwindcss/tailwind.css";
+import "@rainbow-me/rainbowkit/styles.css";
+
 import { chains, wagmiClientConfig } from "../config/wallet";
 import { AppProps } from "next/app";
 import { WagmiConfig } from "wagmi";

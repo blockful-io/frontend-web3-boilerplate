@@ -1,7 +1,7 @@
 import { ThemeContext } from "@/contexts/theme-config";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import Image from "next/image";
 import { useContext, useState } from "react";
+import Image from "next/image";
 
 export const ConnectWallet = () => {
   const { theme } = useContext(ThemeContext);
@@ -61,7 +61,7 @@ export const ConnectWallet = () => {
                       color: ctaConfig.color,
                       fontWeight: 600,
                       padding: "8px 16px",
-                      fontSize: 20,
+                      fontSize: 16,
                       borderRadius: 6,
                       transition: "ease-in-out 0.4s",
                     }}
@@ -75,7 +75,16 @@ export const ConnectWallet = () => {
 
               if (chain.unsupported) {
                 return (
-                  <button onClick={openChainModal} type="button">
+                  <button
+                    onClick={openChainModal}
+                    type="button"
+                    style={{
+                      borderRadius: 6,
+                      padding: "10px 10px",
+                      background: ctaConfig.background,
+                      color: ctaConfig.color,
+                    }}
+                  >
                     Wrong network
                   </button>
                 );
